@@ -12,10 +12,10 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
-    user : 'aneagoie',
-    password : '',
-    database : 'smart-brain'
+    host : 'raja.db.elephantsql.com',
+    user : 'qneycqxa',
+    password : '9qbPrMBwT3uoJM4KSwlutZ9gkgfO62qM',
+    database : 'qneycqxa'
   }
 });
 
